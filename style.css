@@ -1,1 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+/* This changes the way the nav links are displayed and it also changes their color*/
+li {
+    display: inline;
+    padding: 5px;
+    width: 100%;
+    list-style-type: none;
+    margin-left: -4px;
+}
+a{
+    color: #777;
+}
+nav{
+    border-top: 1px;
+    border-bottom: 1px;
+}
+
+/*most of the css can apply to the entire page, by doing it this way we save lines of code*/
+.newspaper-container{
+    width: 700px;
+    border-radius: 20px;
+    padding: 40px;
+    display: block;
+    margin: auto;
+    background-color: white;
+    box-shadow: #ddd;
+    text-align: left;
+}
+body{
+    background-color: #eee;
+    font-family: Source Sans Pro;
+    text-align: center;
+}
+/* small tweaks to get the date and title seperate colors and locations on the page*/
+header{
+    font-family: Abril Fatface;
+    text-align: center;
+}
+.date{
+    text-align: left;
+}
