@@ -14,7 +14,24 @@ a{
 nav{
     border-top: 1px;
     border-bottom: 1px;
+    position: sticky;
+    top: 1px;
+    background-color: white;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 0.5px;
+    box-shadow: 2px 2px lightgray;
+    
 }
+a{
+    text-decoration: none;
+    text-shadow: 1px 0px black;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
 
 /*most of the css can apply to the entire page, by doing it this way we save lines of code*/
 .newspaper-container{
@@ -30,7 +47,7 @@ nav{
 body{
     background-color: #eee;
     font-family: Source Sans Pro;
-    text-align: center;
+ 
 }
 /* small tweaks to get the date and title seperate colors and locations on the page*/
 header{
@@ -39,4 +56,31 @@ header{
 }
 .date{
     text-align: left;
+}
+
+.Article-one{
+    display: inline-block;
+    width: 346px;
+    text-align: left;
+}
+.Article-two{
+    display: inline-block;
+    width: 346px;
+    text-align: left;
+    
+}
+footer{
+    background-color: white;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 0.5px;
+    box-shadow: 2px 2px lightgray;
+    width: 475px;
+    text-align: left;
+    position: relative;
+    left: 350px;
+}
+.title{
+    color: red;
+    text-decoration: underline;
 }
